@@ -4,12 +4,6 @@ import { Routes , Route } from "react-router-dom";
 import Topbar from './scenes/global/Topbar'
 import Sidebar from './scenes/global/Sidebar'
 import Dashboard from "./scenes/dashboard";
-/* import Team from "./scenes/team";
-
-
-
-
- */
 import Bar from "./scenes/bar";
 import Calendar from './scenes/calendar/calendar'
 import Contacts from "./scenes/contacts";
@@ -19,6 +13,7 @@ import Geography from "./scenes/geography";
 import Invoices from "./scenes/invoices";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
+import Team from "./scenes/team";
 
 function App() {
 
@@ -35,15 +30,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               
-              {/* <Route path="/team" element={<Team />} />
-              
-            
-             
-      
-             
-             
-              
-              */}
+              <Route path="/team" element={<Team />} />
               <Route path="/calendar" element={<Calendar />} /> 
               <Route path="/bar" element={<Bar />} />
               <Route path="/contacts" element={<Contacts />} />
