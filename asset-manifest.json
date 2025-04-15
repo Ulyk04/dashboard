@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//Ulyk04.github.io/dashboard/static/css/main.5cc2ab0b.css",
+    "main.js": "/https//Ulyk04.github.io/dashboard/static/js/main.d126e6f9.js",
+    "index.html": "/https//Ulyk04.github.io/dashboard/index.html",
+    "main.5cc2ab0b.css.map": "/https//Ulyk04.github.io/dashboard/static/css/main.5cc2ab0b.css.map",
+    "main.d126e6f9.js.map": "/https//Ulyk04.github.io/dashboard/static/js/main.d126e6f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cc2ab0b.css",
+    "static/js/main.d126e6f9.js"
+  ]
+}
